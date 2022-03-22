@@ -1,1 +1,25 @@
 theme: jekyll-theme-minimal
+
+url: https://jurajkubelka.com
+
+lang: es
+timezone: Chile/Santiago
+date_format: "%d de %B, %Y"
+
+# Name of website
+title: Juraj Kubelka
+name: Juraj Kubelka • Página Personal
+description: Contenido de interés de Juraj Kubelka.
+
+author:
+  name: Juraj Kubelka
+  email: "juraj@jurajkubelka.com"
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor
