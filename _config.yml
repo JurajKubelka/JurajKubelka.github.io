@@ -15,6 +15,9 @@ author:
   name: Juraj Kubelka
   email: "juraj@jurajkubelka.com"
 
+github:
+   is_project_page: false
+
 exclude:
   - .gitignore
   - Gemfile
