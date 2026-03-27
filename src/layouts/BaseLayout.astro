@@ -43,13 +43,18 @@ const ogUrl = siteUrl ? new URL(pagePath, siteUrl).toString() : pagePath;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={description} />
+    <meta name="robots" content="max-image-preview:large" />
     {canonical && <link rel="canonical" href={canonical} />}
     {languages.map((language) => {
       const hrefPath = withBase(basePath, language.path);
       const href = siteUrl ? new URL(hrefPath, siteUrl).toString() : hrefPath;
       return <link rel="alternate" hreflang={language.code} href={href} />;
     })}
+    { siteUrl ? <link rel="alternate" hreflang="x-default" href="https://jurajkubelka.com/" /> : "" }
     <link rel="icon" type="image/svg+xml" href={faviconPath} />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <title>{title}</title>
   </head>
   <body>
