@@ -24,7 +24,7 @@ work:
   body: Formo parte del equipo de [feenk](https://feenk.com), donde modernizamos sistemas legádos y los convertimos en sistemas comprensibles. Logramos estos cambios extraordinarios empleando [Moldable Development](https://moldabledevelopment.com/).
 health:
   title: Salud y Higiene Natural
-  body: >-
+  body: |-
     La salud es uno de mis intereses constantes. Me atraen especialmente
     Higiene Natural (en inglés Natural Hygiene), el descanso, la alimentación, el movimiento y las
     condiciones que permiten al cuerpo recuperarse y prosperar. Me acerco a
@@ -37,28 +37,27 @@ health:
     para aprender y aplicar Higiene Natural en la vida diaria.
 pets:
   title: Salud de las mascotas y Higiene Natural
-  body: >-
+  body: |-
     Cada especie animal necesita seguir lo que dicta su fisiología, incluidos
     los perros y los gatos. Los perros comen frutas frescas y carne cruda,
     mientras que los gatos son exclusivamente carnívoros. 
     
-    Para más información sobre cómo alimentar a tus queridas mascotas, visita el sitio de Lauren
-    [therawkey.com](https://www.therawkey.com/). Las guías de inicio rápido
-    también están disponibles en español y se pueden descargar aquí: guía
-    rápida de dieta natural [para perros](/downloads/natural-dog-diet-quickstart-guide-es.pdf)
+    Para más información sobre cómo alimentar a tus queridas mascotas, visita el sitio de 
+    [Lauren](https://www.therawkey.com/). Las guías de inicio rápido
+    también están disponibles en español y se pueden descargar aquí: 
+    [para perros](/downloads/natural-dog-diet-quickstart-guide-es.pdf)
     y [para gatos](/downloads/natural-cat-diet-quickstart-guide-es.pdf).
 medicine:
   title: Perspectivas críticas sobre la medicina alopática
-  body: >-
+  body: |-
     Me parece valioso estudiar perspectivas críticas sobre la medicina
-    convencional junto con mi interés más amplio por la salud y Higiene Natural. 
+    convencional junto con el interés por la salud y Higiene Natural. 
     Los siguientes libros han influido especialmente en mi perspectiva
     personal.
 
-    Para principiantes, recomiendo [Rompiendo el hechizo](/downloads/breaking-the-spell-thomas-cowan-es.pdf)  
+    Recomiendo empezar con el folleto [Rompiendo el hechizo](/downloads/breaking-the-spell-thomas-cowan-es.pdf)  
     por Dr. Thomas Cowan.
-
-    Para lectores más avanzados, recomiendo [What Really Makes You Ill?](https://whatreallymakesyouill.com/) de Dawn Lester y David Parker, y
+    Luego, con el libro [What Really Makes You Ill?](https://whatreallymakesyouill.com/) de Dawn Lester y David Parker, y/o con el libro
     [The Final Pandemic](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) de Dr. Mark Bailey y Dr. Samantha Bailey.
 contact:
   title: Contacto

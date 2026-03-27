@@ -24,7 +24,7 @@ work:
   body: I am part of the [feenk](https://feenk.com) team, where we modernize legacy systems, making them explainable. We achieve such extraordinary changes employing [Moldable Development](https://moldabledevelopment.com/).
 health:
   title: Health and Natural Hygiene
-  body: >-
+  body: |-
     Health is one of my enduring interests. I am especially drawn to Natural
     Hygiene, rest, food, movement, and the conditions that let the body recover
     and thrive. I approach this space as a learner and as a practitioner, with curiosity and respect
@@ -36,23 +36,25 @@ health:
     for learning and applying Natural Hygiene in daily life.
 pets:
   title: Pets Health and Natural Hygiene
-  body: Every animal species needs to follow what their physiology dictates, including dogs and cats. Dogs eat fresh fruits and raw meat, while cats are exclusively carnivorous. For more information about how to feed your loving pets, visit Lauren's site [therawkey.com](https://www.therawkey.com/). In particular, see the [Natural dog diet quickstart guide](https://www.therawkey.com/natural-dog-diet-quickstart-guide/) and the [Natural cat diet quickstart guide](https://www.therawkey.com/natural-cat-diet-quickstart-guide/).
+  body: |-
+    Every animal species needs to follow what their physiology dictates, including dogs and cats. Dogs eat fresh fruits and raw meat, while cats are exclusively carnivorous. 
+    
+    For more information about how to feed your loving pets, visit Lauren's site [therawkey.com](https://www.therawkey.com/). 
+    In particular, see the [Natural dog diet quickstart guide](https://www.therawkey.com/natural-dog-diet-quickstart-guide/) and the [Natural cat diet quickstart guide](https://www.therawkey.com/natural-cat-diet-quickstart-guide/).
 medicine:
   title: Critical Perspectives on Allopathic Medicine
-  body: >-
+  body: |-
     I find it valuable to study critical perspectives on conventional
-    medicine alongside my broader interest in health and Natural Hygiene. The
+    medicine alongside the interest in health and Natural Hygiene. The
     following books have been especially influential in shaping my personal
     perspective.
 
-    For beginners, I recommend [Breaking The Spell: The Scientific Evidence for
-    Ending The COVID Delusion](https://drtomcowan.com/products/breaking-the-spell-the-scientific-evidence-for-ending-the-covid-delusion) by Dr. Tom Cowan.
-
-    For more advanced readers, I recommend [What Really Makes You Ill?](https://whatreallymakesyouill.com/) by Dawn Lester and
-    David Parker, and [The Final Pandemic](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) by Dr Mark Bailey and Dr Samantha Bailey.
+    I recommend starting with the booklet [Breaking The Spell](https://drtomcowan.com/products/breaking-the-spell-the-scientific-evidence-for-ending-the-covid-delusion) by Dr. Tom Cowan.
+    Subsequently with the book [What Really Makes You Ill?](https://whatreallymakesyouill.com/) by Dawn Lester and
+    David Parker, and/or the book [The Final Pandemic](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) by Dr Mark Bailey and Dr Samantha Bailey.
 contact:
   title: Contact
-  intro: The easiest way to reach me is by email. I do not expose real email to protect me from spams and frauds. Please, do not be confused by the email alias below.
+  intro: The easiest way to reach me is by email. I do not expose my real email to protect me from spams and frauds. Please, do not be confused by the email alias below.
   emailLabel: Email alias
   email: juraj.webcontact.seventeen799@slmail.me
   links:
