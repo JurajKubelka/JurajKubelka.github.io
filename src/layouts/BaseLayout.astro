@@ -1,0 +1,53 @@
+---
+import "../styles/global.css";
+import { languages, siteMeta, withBase } from "../lib/site";
+
+interface Props {
+  lang: "en" | "cs" | "es";
+  locale: string;
+  title: string;
+  description: string;
+  path: string;
+}
+
+const { lang, locale, title, description, path } = Astro.props;
+const basePath = import.meta.env.BASE_URL;
+const pagePath = withBase(basePath, path);
+const siteUrl = Astro.site ? new URL(Astro.site) : undefined;
+const faviconPath = withBase(basePath, "/favicon.svg");
+const ogImagePath = withBase(basePath, "/og-default.svg");
+const canonical = siteUrl ? new URL(pagePath, siteUrl).toString() : undefined;
+const ogImage = siteUrl ? new URL(ogImagePath, siteUrl).toString() : ogImagePath;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f1eadc" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteMeta.siteName} />
+    <meta property="og:locale" content={locale} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    {languages.map((language) => {
+      const hrefPath = withBase(basePath, language.path);
+      const href = siteUrl ? new URL(hrefPath, siteUrl).toString() : hrefPath;
+      return <link rel="alternate" hreflang={language.code} href={href} />;
+    })}
+    <link rel="icon" type="image/svg+xml" href={faviconPath} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

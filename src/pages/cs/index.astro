@@ -1,0 +1,21 @@
+---
+import { getEntry } from "astro:content";
+import HomePage from "../../components/HomePage.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const entry = await getEntry("home", "cs");
+
+if (!entry) {
+  throw new Error("Missing Czech homepage content.");
+}
+---
+
+<BaseLayout
+  lang={entry.data.lang}
+  locale={entry.data.locale}
+  title={entry.data.pageTitle}
+  description={entry.data.pageDescription}
+  path="/cs/"
+>
+  <HomePage entry={entry} />
+</BaseLayout>

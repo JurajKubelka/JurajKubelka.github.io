@@ -1,0 +1,138 @@
+---
+import type { CollectionEntry } from "astro:content";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+import { renderInlineContent, renderRichTextContent, withBase } from "../lib/site";
+
+interface Props {
+  entry: CollectionEntry<"home">;
+}
+
+const { entry } = Astro.props;
+const content = entry.data;
+const basePath = import.meta.env.BASE_URL;
+const homeHref = withBase(basePath, content.lang === "en" ? "/" : `/${content.lang}/`);
+const petsFallback = {
+  en: {
+    nav: "Pets",
+    title: "Pets Health and Natural Hygiene",
+    body: "Every animal species needs to follow what its physiology dictates, including dogs and cats. Dogs eat fresh fruits and raw meat, while cats are exclusively carnivorous."
+  },
+  cs: {
+    nav: "Zvířata",
+    title: "Zdraví domácích zvířat a Natural Hygiene",
+    body: "Každý živočišný druh potřebuje následovat to, co vyžaduje jeho fyziologie, včetně psů a koček. Psi jedí čerstvé ovoce a syrové maso, zatímco kočky jsou výhradně masožravé."
+  },
+  es: {
+    nav: "Mascotas",
+    title: "Salud de las mascotas y Natural Hygiene",
+    body: "Cada especie animal necesita seguir lo que dicta su fisiología, incluidos los perros y los gatos. Los perros comen frutas frescas y carne cruda, mientras que los gatos son exclusivamente carnívoros."
+  }
+} as const;
+const pets = content.pets ?? petsFallback[content.lang];
+const petsNavLabel = content.nav.pets ?? petsFallback[content.lang].nav;
+const medicineFallback = {
+  en: {
+    nav: "Medicine",
+    title: "Critical Perspectives on Allopathic Medicine",
+    body:
+      "I have found it valuable to study critical perspectives on conventional medicine alongside my broader interest in health and Natural Hygiene. The following books have been especially influential in shaping my personal perspective.\n\nFor beginners, I recommend [Breaking The Spell: The Scientific Evidence for Ending The COVID Delusion by Dr. Tom Cowan](https://drtomcowan.com/products/breaking-the-spell-the-scientific-evidence-for-ending-the-covid-delusion).\n\nFor more advanced readers, I recommend [What Really Makes You Ill?: Why Everything You Thought You Knew About Disease Is Wrong by Dawn Lester and David Parker](https://whatreallymakesyouill.com/), and The Final Pandemic by Dr Mark Bailey and Dr Samantha Bailey."
+  },
+  cs: {
+    nav: "Medicína",
+    title: "Kritické pohledy na alopatickou medicínu",
+    body:
+      "Za cenné považuji studovat i kritické pohledy na konvenční medicínu vedle svého širšího zájmu o zdraví a Natural Hygiene. Následující knihy měly výrazný vliv na můj osobní pohled.\n\nZačátečníkům doporučuji [Zlomení Kletby](https://resetheus.org/obchod/ZLOMENI-KLETBY-p437141304).\n\nPokročilejším čtenářům doporučuji [What Really Makes You Ill?: Why Everything You Thought You Knew About Disease Is Wrong](https://whatreallymakesyouill.com/) od Dawn Lester a David Parker a [Poslední Pandemie](https://resetheus.org/obchod/POSLEDNI-PANDEMIE-p693548805) od Dr. Marka Baileyho a Dr. Samanthy Bailey."
+  },
+  es: {
+    nav: "Medicina",
+    title: "Perspectivas criticas sobre la medicina alopatica",
+    body:
+      "Me parece valioso estudiar perspectivas criticas sobre la medicina convencional junto con mi interes mas amplio por la salud y Natural Hygiene. Los siguientes libros han influido especialmente en mi perspectiva personal.\n\nPara principiantes, recomiendo [Rompiendo el hechizo por Thomas Cowan](/downloads/breaking-the-spell-thomas-cowan-es.pdf).\n\nPara lectores mas avanzados, recomiendo [What Really Makes You Ill?: Why Everything You Thought You Knew About Disease Is Wrong](https://whatreallymakesyouill.com/) de Dawn Lester y David Parker, y The Final Pandemic de Dr. Mark Bailey y Dr. Samantha Bailey."
+  }
+} as const;
+const medicine = content.medicine ?? medicineFallback[content.lang];
+const medicineNavLabel = content.nav.medicine ?? medicineFallback[content.lang].nav;
+---
+
+<div class="site-shell">
+  <div class="background-orb background-orb-left"></div>
+  <div class="background-orb background-orb-right"></div>
+
+  <header class="site-header">
+    <a class="site-wordmark" href={homeHref}>
+      Juraj Kubelka
+    </a>
+    <div class="site-header-meta">
+      <nav class="section-nav" aria-label="Section navigation">
+        <a href="#about">{content.nav.about}</a>
+        <a href="#work">{content.nav.work}</a>
+        <a href="#health">{content.nav.health}</a>
+        <a href="#pets">{petsNavLabel}</a>
+        <a href="#medicine">{medicineNavLabel}</a>
+        <a href="#contact">{content.nav.contact}</a>
+      </nav>
+      <LanguageSwitcher currentLang={content.lang} />
+    </div>
+  </header>
+
+  <main class="content-grid">
+    <section class="hero card hero-card">
+      <p class="eyebrow">{content.hero.eyebrow}</p>
+      <h1>{content.hero.heading}</h1>
+      <p class="lead">{content.hero.intro}</p>
+      <a class="button-link" href={content.hero.ctaHref}>{content.hero.ctaLabel}</a>
+    </section>
+
+    <section id="about" class="card section-card">
+      <p class="section-kicker">01</p>
+      <h2>{content.about.title}</h2>
+      <div class="rich-text" set:html={renderRichTextContent(content.about.body)} />
+    </section>
+
+    <section id="work" class="card section-card">
+      <p class="section-kicker">02</p>
+      <h2>{content.work.title}</h2>
+      <div class="rich-text" set:html={renderRichTextContent(content.work.body)} />
+    </section>
+
+    <section id="health" class="card section-card">
+      <p class="section-kicker">03</p>
+      <h2>{content.health.title}</h2>
+      <div class="rich-text" set:html={renderRichTextContent(content.health.body)} />
+    </section>
+
+    <section id="pets" class="card section-card">
+      <p class="section-kicker">04</p>
+      <h2>{pets.title}</h2>
+      <div class="rich-text" set:html={renderRichTextContent(pets.body)} />
+    </section>
+
+    <section id="medicine" class="card section-card">
+      <p class="section-kicker">05</p>
+      <h2>{medicine.title}</h2>
+      <div class="rich-text" set:html={renderRichTextContent(medicine.body)} />
+    </section>
+
+    <section id="contact" class="card section-card contact-card">
+      <p class="section-kicker">06</p>
+      <h2>{content.contact.title}</h2>
+      <p set:html={renderInlineContent(content.contact.intro)} />
+      <div class="contact-block">
+        <a class="contact-email" href={`mailto:${content.contact.email}`}>
+          {content.contact.emailLabel}: {content.contact.email}
+        </a>
+        <ul class="contact-links">
+          {content.contact.links.map((link) => (
+            <li>
+              <a href={link.href} target="_blank" rel="noreferrer">{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>{content.footer}</p>
+  </footer>
+</div>

@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Juraj Kubelka Personal Website
 
-You can use the [editor on GitHub](https://github.com/JurajKubelka/JurajKubelka.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A multilingual personal website built with Astro and prepared for deployment to GitHub Pages.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Local development
 
-### Markdown
+1. Install dependencies:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   ```bash
+   npm install
+   ```
 
-```markdown
-Syntax highlighted code block
+2. Start the dev server:
 
-# Header 1
-## Header 2
-### Header 3
+   ```bash
+   npm run dev
+   ```
 
-- Bulleted
-- List
+3. Build the production site:
 
-1. Numbered
-2. List
+   ```bash
+   npm run build
+   ```
 
-**Bold** and _Italic_ and `Code` text
+## Content editing
 
-[Link](url) and ![Image](src)
-```
+Update the localized homepage content in these files:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- `src/content/home/en.md`
+- `src/content/home/cs.md`
+- `src/content/home/es.md`
 
-### Jekyll Themes
+The shared site layout and styling live in:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JurajKubelka/JurajKubelka.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- `src/components/HomePage.astro`
+- `src/layouts/BaseLayout.astro`
+- `src/styles/global.css`
 
-### Support or Contact
+## GitHub Pages deployment
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The project includes `.github/workflows/deploy.yml` using the official Astro GitHub Action.
+
+Before the first deployment:
+
+1. Push this project to GitHub.
+2. In repository settings, configure GitHub Pages to use **GitHub Actions** as the source.
+3. Set repository variables if needed:
+   - `SITE_URL`: your final site URL such as `https://your-domain.example`
+   - `SITE_BASE`: use `/` for a user site or `/repo-name/` for a project site
+4. If you use a custom domain, copy `public/CNAME.example` to `public/CNAME` and replace it with your real domain.
+
+## Still worth customizing
+
+- Replace `hello@example.com` and social links in each language file.
+- Adjust the text in the feenk and health sections to match your preferred voice.
+- Replace `SITE_URL` with your actual GitHub Pages or custom domain before launch.

@@ -1,0 +1,26 @@
+---
+import { languages, withBase } from "../lib/site";
+
+interface Props {
+  currentLang: "en" | "cs" | "es";
+}
+
+const { currentLang } = Astro.props;
+const basePath = import.meta.env.BASE_URL;
+---
+
+<nav class="language-switcher" aria-label="Language switcher">
+  <ul>
+    {languages.map((language) => (
+      <li>
+        <a
+          href={withBase(basePath, language.path)}
+          class:list={{ active: currentLang === language.code }}
+          aria-current={currentLang === language.code ? "page" : undefined}
+        >
+          {language.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
