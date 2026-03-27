@@ -2,7 +2,7 @@
 lang: cs
 locale: cs-CZ
 pageTitle: Juraj Kubelka
-pageDescription: Osobní web Juraje Kubelky o práci ve feenk, zájmu o zdraví a Natural Hygiene a možnostech kontaktu.
+pageDescription: Osobní web Juraje Kubelky o práci ve feenk, zájmu o zdraví a Natural Hygiene.
 nav:
   about: O mně
   work: Práce

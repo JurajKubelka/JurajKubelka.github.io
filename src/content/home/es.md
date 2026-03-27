@@ -2,7 +2,7 @@
 lang: es
 locale: es-ES
 pageTitle: Juraj Kubelka
-pageDescription: Sitio personal de Juraj Kubelka sobre su trabajo en feenk, su interés por la salud y Natural Hygiene, y formas de contacto.
+pageDescription: Sitio personal de Juraj Kubelka sobre su trabajo en feenk, su interés por la salud y Natural Hygiene.
 nav:
   about: Sobre mí
   work: Trabajo
