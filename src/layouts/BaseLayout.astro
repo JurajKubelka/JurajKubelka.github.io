@@ -18,6 +18,7 @@ const faviconPath = withBase(basePath, "/favicon.svg");
 const ogImagePath = withBase(basePath, "/og-default.svg");
 const canonical = siteUrl ? new URL(pagePath, siteUrl).toString() : undefined;
 const ogImage = siteUrl ? new URL(ogImagePath, siteUrl).toString() : ogImagePath;
+const ogUrl = siteUrl ? new URL(pagePath, siteUrl).toString() : pagePath;
 ---
 
 <!doctype html>
@@ -34,6 +35,7 @@ const ogImage = siteUrl ? new URL(ogImagePath, siteUrl).toString() : ogImagePath
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={ogUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
