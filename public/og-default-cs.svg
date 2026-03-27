@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Juraj Kubelka personal website</title>
+  <title id="title">Osobní stránka Juraje Kubelky</title>
   <desc id="desc">Open Graph placeholder image for the personal website.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -12,7 +12,7 @@
   <circle cx="960" cy="140" r="160" fill="#ffffff" opacity="0.22" />
   <circle cx="180" cy="520" r="190" fill="#b67a4d" opacity="0.14" />
   <text x="110" y="252" fill="#8c5b2d" font-family="Georgia, serif" font-size="30" letter-spacing="8">JURAJ KUBELKA</text>
-  <text x="110" y="350" fill="#33261b" font-family="Georgia, serif" font-size="86">Explainable software.</text>
-  <text x="110" y="438" fill="#33261b" font-family="Georgia, serif" font-size="86">Calm living.</text>
-  <text x="110" y="520" fill="#5f4b37" font-family="Arial, sans-serif" font-size="32">Follow feenk and Natural Hygiene.</text>
+  <text x="110" y="350" fill="#33261b" font-family="Georgia, serif" font-size="86">Srozumitelný software.</text>
+  <text x="110" y="438" fill="#33261b" font-family="Georgia, serif" font-size="86">Klidné žití.</text>
+  <text x="110" y="520" fill="#5f4b37" font-family="Arial, sans-serif" font-size="32">Následuj feenk a Přirozenou hygienu.</text>
 </svg>
