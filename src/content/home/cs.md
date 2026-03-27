@@ -39,8 +39,8 @@ pets:
   body: |-
     Každý živočišný druh potřebuje následovat to, co vyžaduje jeho fyziologie, včetně psů a koček. Psi jedí čerstvé ovoce a syrové maso, zatímco kočky jsou výhradně masožravé. 
     
-    Více informací o tom, jak krmit své milované mazlíčky, najdete na stránkách [Lauren](https://www.therawkey.com/). 
-    Podívejte se zejména na [rychlého průvodce přirozenou stravou pro psy](https://www.therawkey.com/natural-dog-diet-quickstart-guide/) a [rychlého průvodce přirozenou stravou pro kočky](https://www.therawkey.com/natural-cat-diet-quickstart-guide/).
+    Více informací o tom, jak krmit své milované mazlíčky, najdete na stránkách [Lauren](https://www.therawkey.com/the-animals-key/). 
+    Podívejte se zejména na rychlého průvodce přirozenou stravou [pro psy](https://www.therawkey.com/natural-dog-diet-quickstart-guide/) a [pro kočky](https://www.therawkey.com/natural-cat-diet-quickstart-guide/).
 medicine:
   title: Kritické pohledy na alopatickou medicínu
   body: |-
