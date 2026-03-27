@@ -56,7 +56,7 @@ contact:
   title: Kontakt
   intro: Nejsnazší způsob, jak mě kontaktovat, je e-mailem. Nezveřejňuji můj skutečný e-mail, abych byl chráněn před spamem a podvody. Prosím, nenechte se zmást níže uvedeným e-mailovým aliasem.
   emailLabel: E-mail alias
-  email: juraj.webcontact.seventeen799@slmail.me
+  email: jkweb.primary776@slmail.me
   links:
     - label: GitHub
       href: https://github.com/JurajKubelka

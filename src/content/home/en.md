@@ -56,7 +56,7 @@ contact:
   title: Contact
   intro: The easiest way to reach me is by email. I do not expose my real email to protect me from spams and frauds. Please, do not be confused by the email alias below.
   emailLabel: Email alias
-  email: juraj.webcontact.seventeen799@slmail.me
+  email: jkweb.primary776@slmail.me
   links:
     - label: GitHub
       href: https://github.com/JurajKubelka

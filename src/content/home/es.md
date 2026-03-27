@@ -63,7 +63,7 @@ contact:
   title: Contacto
   intro: La forma más sencilla de contactarme es por correo electrónico. No expongo mi correo electrónico real para protegerme del spam y los fraudes. Por favor, no se confunda con el alias de correco electrónico que aparece a continuación.
   emailLabel: Alias de correo
-  email: juraj.webcontact.seventeen799@slmail.me
+  email: jkweb.primary776@slmail.me
   links:
     - label: GitHub
       href: https://github.com/JurajKubelka
