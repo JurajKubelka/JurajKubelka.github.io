@@ -2,7 +2,7 @@
 lang: cs
 locale: cs-CZ
 pageTitle: Juraj Kubelka
-pageDescription: Osobní web Juraje Kubelky o práci ve feenk, zájmu o zdraví a Natural Hygiene.
+pageDescription: Osobní stránky Juraje Kubelky o práci ve feenk, zájmu o zdraví a Přirozené hygieně.
 nav:
   about: O mně
   work: Práce
@@ -30,12 +30,12 @@ health:
     regenerovat a prospívat. K tomuto tématu přistupuji jako student i jako praktik,
     se zvídavostí a respektem k prožité zkušenosti.
 
-    Doporučuji sledovat a studovat práci osob [Lauren Whiteman
-    Farris](https://www.therawkey.com/) a [Maria
-    Mazza](https://www.applediaries.com/). Jejich práce je obzvlášť užitečná
-    pro pochopení a uplatnění Natural Hygiene v každodenním životě.
+    Doporučuji sledovat a studovat práci [Lauren Whiteman
+    Farrisové](https://www.therawkey.com/) a [Marie
+    Mazzové](https://www.applediaries.com/). Jejich práce je obzvlášť užitečná
+    pro pochopení a uplatnění Přirozené hygieny v každodenním životě.
 pets:
-  title: Zdraví domácích zvířat a Natural Hygiene
+  title: Zdraví domácích zvířat a Přirozená hygiena
   body: |-
     Každý živočišný druh potřebuje následovat to, co vyžaduje jeho fyziologie, včetně psů a koček. Psi jedí čerstvé ovoce a syrové maso, zatímco kočky jsou výhradně masožravé. 
     
@@ -50,8 +50,8 @@ medicine:
 
     Doporučuji začít s brožurou [Zlomení
     Kletby](https://resetheus.org/obchod/ZLOMENI-KLETBY-p437141304) od Dr. Toma Cowana.
-    Následně s knihou [What Really Makes You Ill?](https://whatreallymakesyouill.com/) od Dawna Lestera a Davida Parkera a/nebo s knihou [Poslední Pandemie](https://resetheus.org/obchod/POSLEDNI-PANDEMIE-p693548805)
-    od Dr. Marka Baileyho a Dr. Samanthy Bailey.
+    Následně pokračovat s knihou [Co tě doopravdy dělá nemocným?](https://whatreallymakesyouill.com/) od Dawn Lesterové a Davida Parkera a/nebo s knihou [Poslední Pandemie](https://resetheus.org/obchod/POSLEDNI-PANDEMIE-p693548805)
+    od Dr. Marka Baileyho a Dr. Samanthy Baileyové.
 contact:
   title: Kontakt
   intro: Nejsnazší způsob, jak mě kontaktovat, je e-mailem. Nezveřejňuji můj skutečný e-mail, abych byl chráněn před spamem a podvody. Prosím, nenechte se zmást níže uvedeným e-mailovým aliasem.

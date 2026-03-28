@@ -50,7 +50,7 @@ medicine:
     perspective.
 
     I recommend starting with the booklet [Breaking The Spell](https://drtomcowan.com/products/breaking-the-spell-the-scientific-evidence-for-ending-the-covid-delusion) by Dr. Tom Cowan.
-    Subsequently with the book [What Really Makes You Ill?](https://whatreallymakesyouill.com/) by Dawn Lester and
+    Subsequently continue with the book [What Really Makes You Ill?](https://whatreallymakesyouill.com/) by Dawn Lester and
     David Parker, and/or the book [The Final Pandemic](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) by Dr Mark Bailey and Dr Samantha Bailey.
 contact:
   title: Contact
