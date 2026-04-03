@@ -1,10 +1,11 @@
 ---
+# cSpell:language cs, en
 lang: cs
 locale: cs-CZ
 pageTitle: Juraj Kubelka
 pageDescription: Osobní stránky Juraje Kubelky o práci ve feenk, zájmu o zdraví a Přirozené hygieně.
 nav:
-  about: O mně
+  about: Motivace
   work: Práce
   health: Zdraví
   pets: Zvířata
@@ -17,18 +18,16 @@ hero:
   ctaLabel: Napište mi
   ctaHref: "#contact"
 about:
-  title: O mně
-  body: Pracuji ve společnosti feenk a zajímám se o nástroje, které pomáhají lidem lépe porozumět jejich systémům. Kromě softwaru se pravidelně vracím ke zdraví, jednoduchosti a Přirozené hygieně.
+  title: Motivace
+  body: |-
+    Náš každodenní život je obklopen obchodními a zdravotními problémy, které je těžké pochopit a běžně se považují za normální. Zpochybňuji tento status quo a posiluji firmy i jednotlivce. Zejména (i) dělám (zastaralé) softwarové systémy srozumitelnými a (ii) a poskytuji znalosti o zdraví, které přinášejí jasnost a řešení.
 work:
-  title: Informatika
-  body: Jsem součástí týmu [feenk](https://feenk.com), kde modernizujeme legacy systémy a činíme je srozumitelnými. Takových mimořádných změn dosahujeme pomocí [Moldable Development](https://moldabledevelopment.com/).
+  title: Práce
+  body: Jsem součástí týmu [feenk](https://feenk.com), kde modernizujeme (zastaralé, legacy) softwarové systémy a činíme je srozumitelnými. To umožňuje našim zákazníkům rychlý pokrok a získávání konkurenční výhody. Takových mimořádných změn dosahujeme pomocí [Moldable Development](https://moldabledevelopment.com/).
 health:
   title: Zdraví a Přirozená hygiena
   body: |-
-    Zdraví je jeden z mých dlouhodobých zájmů. Přitahuje mě zejména Přirozená hygiena (anglicky Natural
-    Hygiene), odpočinek, jídlo, pohyb a podmínky, které tělu umožňují
-    regenerovat a prospívat. K tomuto tématu přistupuji jako student i jako praktik,
-    se zvídavostí a respektem k prožité zkušenosti.
+    Zdraví je jedním z mých dlouhodobých zájmů. Pravidelně se ptám a zkoumám, zda jsou běžné i obtížné zdravotní problémy nezbytné. Toto dlouhodobé bádání mě dovedlo k Přirozené hygieně (anglicky Natural Hygiene), která zahrnuje 19 klíčů k optimálnímu zdraví, včetně stravy, pohybu, odpočinku a dalších podmínek, které umožňují tělu zotavit se a prosperovat. K tomuto tématu přistupuji jako student i jako praktik, se zvědavostí a respektem k prožitým zkušenostem.
 
     Doporučuji sledovat a studovat práci [Lauren Whiteman
     Farrisové](https://www.therawkey.com/) a [Marie
@@ -37,7 +36,7 @@ health:
 pets:
   title: Zdraví domácích zvířat a Přirozená hygiena
   body: |-
-    Každý živočišný druh potřebuje následovat to, co vyžaduje jeho fyziologie, včetně psů a koček. Psi jedí čerstvé ovoce a syrové maso, zatímco kočky jsou výhradně masožravé. 
+    Každý živočišný druh potřebuje následovat to, co vyžaduje jeho fyziologie, včetně psů a koček. Psi jedí čerstvé ovoce a syrové maso, zatímco kočky jsou výhradně masožravé. Dodržování vhodné stravy domácím mazlíčkům umožňuje prospívat a žít bez nemocí.
     
     Více informací o tom, jak krmit své milované mazlíčky, najdete na stránkách [Lauren](https://www.therawkey.com/the-animals-key/). 
     Podívejte se zejména na rychlého průvodce přirozenou stravou [pro psy](https://www.therawkey.com/natural-dog-diet-quickstart-guide/) a [pro kočky](https://www.therawkey.com/natural-cat-diet-quickstart-guide/).

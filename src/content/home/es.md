@@ -1,11 +1,12 @@
 ---
+# cSpell:language es, en
 lang: es
 locale: es-ES
 pageTitle: Juraj Kubelka
 pageDescription: Sitio personal de Juraj Kubelka sobre su trabajo en feenk, su interés por la salud y Higiene Natural.
 nav:
-  about: Sobre mí
-  work: Trabajo
+  about: Motivación
+  work: Negocios
   health: Salud
   pets: Mascotas
   medicine: Medicina
@@ -17,20 +18,18 @@ hero:
   ctaLabel: Contáctame
   ctaHref: "#contact"
 about:
-  title: Sobre mí
-  body: Trabajo en feenk y me interesan las herramientas que ayudan a las personas a comprender mejor sus sistemas. Además del software, suelo recurrir a la salud, la simplicidad y la Higiene Natural.
+  title: Motivación
+  body: |-
+    Nuestra vida cotidiana está rodeada de desafíos empresariales y de salud que resultan difíciles de comprender y que, comúnmente, se consideran normales. Yo cuestiono este status quo y apodero tanto a empresas como a particulares. Específicamente: (i) hago que los sistemas de software (heredados) sean explicables; y (ii) proporciono conocimientos sobre salud que aportan claridad y soluciones.
 work:
-  title: Ciencias de la computación
-  body: Formo parte del equipo de [feenk](https://feenk.com), donde modernizamos sistemas legádos y los convertimos en sistemas comprensibles. Logramos estos cambios extraordinarios empleando [Moldable Development](https://moldabledevelopment.com/).
+  title: Negocios
+  body: |-
+    Formo parte del equipo de [feenk](https://feenk.com), donde modernizamos sistemas de software (legados) y los convertimos en sistemas comprensibles. Esto permite a nuestros clientes avanzar con rapidez y obtener una ventaja competitiva. Logramos estos cambios extraordinarios empleando el [Desarrollo Moldeable](https://moldabledevelopment.com/).
 health:
   title: Salud y Higiene Natural
   body: |-
-    La salud es uno de mis intereses constantes. Me atraen especialmente
-    Higiene Natural (en inglés Natural Hygiene), el descanso, la alimentación, el movimiento y las
-    condiciones que permiten al cuerpo recuperarse y prosperar. Me acerco a
-    este tema como aprendiz y como practicante, con curiosidad y respeto por
-    la experiencia vivida.
-
+    La salud es uno de mis intereses constantes. Con regularidad, me pregunto e investigo si los problemas de salud—tanto los comunes como los complejos—son realmente inevitables. Esta investigación a largo plazo me condujo a la Higiene Natural, un enfoque que abarca 19 claves para alcanzar una salud óptima, incluyendo la alimentación, el movimiento, el descanso y otras condiciones que permiten al cuerpo recuperarse y prosperar. Me acerco a este tema como aprendiz y como practicante, con curiosidad y respeto por la experiencia vivida.
+    
     Recomiendo seguir y estudiar el trabajo de [Lauren Whiteman
     Farris](https://www.therawkey.com/) y [Maria
     Mazza](https://www.applediaries.com/). Su trabajo es especialmente útil
@@ -38,9 +37,7 @@ health:
 pets:
   title: Salud de las mascotas y Higiene Natural
   body: |-
-    Cada especie animal necesita seguir lo que dicta su fisiología, incluidos
-    los perros y los gatos. Los perros comen frutas frescas y carne cruda,
-    mientras que los gatos son exclusivamente carnívoros. 
+    Cada especie animal necesita seguir lo que dicta su fisiología, incluidos los perros y los gatos. Los perros comen frutas frescas y carne cruda, mientras que los gatos son exclusivamente carnívoros. Seguir la dieta adecuada les permite prosperar y vivir libres de enfermedades.
     
     Para más información sobre cómo alimentar a tus queridas mascotas, visita el sitio de 
     [Lauren](https://www.therawkey.com/the-animals-key/). Las guías de inicio rápido
