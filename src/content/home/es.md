@@ -56,6 +56,10 @@ medicine:
     por Dr. Thomas Cowan.
     Luego, seguir con el libro [¿Qué es lo que realmente te enferma?](https://whatreallymakesyouill.com/) de Dawn Lester y David Parker, y/o con el libro
     [La última pandemia](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) de Dr. Mark Bailey y Dr. Samantha Bailey.
+
+    > Una manera fiable de hacer que la gente crea en falsedades es la repetición frecuente. Porque la familiaridad no se distingue fácilmente de la verdad. 
+    >
+    > — Daniel Kahneman
 contact:
   title: Contacto
   intro: La forma más sencilla de contactarme es por correo electrónico. No expongo mi correo electrónico real para protegerme del spam y los fraudes. Por favor, no se confunda con el alias de correco electrónico que aparece a continuación.

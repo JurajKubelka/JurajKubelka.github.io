@@ -51,6 +51,10 @@ medicine:
     I recommend starting with the booklet [Breaking The Spell](https://drtomcowan.com/products/breaking-the-spell-the-scientific-evidence-for-ending-the-covid-delusion) by Dr. Tom Cowan.
     Subsequently continue with the book [What Really Makes You Ill?](https://whatreallymakesyouill.com/) by Dawn Lester and
     David Parker, and/or the book [The Final Pandemic](https://drsambailey.com/resources/videos/germ-theory/the-final-pandemic/) by Dr Mark Bailey and Dr Samantha Bailey.
+
+    > A reliable way to make people believe in falsehoods is frequent repetition. Because familiarity is not easily distinguished from truth.
+    >
+    > — Daniel Kahneman
 contact:
   title: Contact
   intro: The easiest way to reach me is by email. I do not expose my real email to protect me from spams and frauds. Please, do not be confused by the email alias below.

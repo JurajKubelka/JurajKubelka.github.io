@@ -206,6 +206,37 @@ p {
   gap: 1rem;
 }
 
+.rich-text blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0.2rem 0 0.2rem 2rem;
+}
+
+.rich-text blockquote::before {
+  content: '"';
+  position: absolute;
+  top: -0.25rem;
+  left: 0;
+  font-size: 3rem;
+  line-height: 1;
+  color: color-mix(in srgb, var(--accent) 55%, white 45%);
+}
+
+.rich-text blockquote p {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.28rem;
+  line-height: 1.5;
+}
+
+.rich-text .blockquote-attribution {
+  margin-top: 0.8rem;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 0.98rem;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .lead {
   max-width: 44rem;
   margin-top: 1.4rem;

@@ -51,6 +51,10 @@ medicine:
     Kletby](https://resetheus.org/obchod/ZLOMENI-KLETBY-p437141304) od Dr. Toma Cowana.
     Následně pokračovat s knihou [Co tě doopravdy dělá nemocným?](https://whatreallymakesyouill.com/) od Dawn Lesterové a Davida Parkera a/nebo s knihou [Poslední Pandemie](https://resetheus.org/obchod/POSLEDNI-PANDEMIE-p693548805)
     od Dr. Marka Baileyho a Dr. Samanthy Baileyové.
+
+    > Spolehlivý způsob, jak přimět lidi věřit nepravdám, je jejich časté opakování. Známost se totiž od pravdy nerozlišuje snadno.
+    >
+    > — Daniel Kahneman
 contact:
   title: Kontakt
   intro: Nejsnazší způsob, jak mě kontaktovat, je e-mailem. Nezveřejňuji můj skutečný e-mail, abych byl chráněn před spamem a podvody. Prosím, nenechte se zmást níže uvedeným e-mailovým aliasem.

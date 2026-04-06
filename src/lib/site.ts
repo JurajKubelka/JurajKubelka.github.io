@@ -49,11 +49,33 @@ export function renderInlineContent(value: string) {
   return renderLinks(escapeHtml(value));
 }
 
-export function renderRichTextContent(value: string) {
-  return value
+function renderParagraph(value: string) {
+  return `<p>${renderInlineContent(value.replace(/\n+/g, " "))}</p>`;
+}
+
+function renderBlockquote(value: string) {
+  const quoteParagraphs = value
+    .split("\n")
+    .map((line) => line.replace(/^\s*>\s?/, ""))
+    .join("\n")
     .split(/\n\s*\n/)
     .map((paragraph) => paragraph.trim())
     .filter(Boolean)
-    .map((paragraph) => `<p>${renderInlineContent(paragraph.replace(/\n+/g, " "))}</p>`)
+    .map((paragraph) => {
+      const attributionClass = /^[—-]\s*/.test(paragraph) ? ' class="blockquote-attribution"' : "";
+
+      return `<p${attributionClass}>${renderInlineContent(paragraph.replace(/\n+/g, " "))}</p>`;
+    })
+    .join("");
+
+  return `<blockquote>${quoteParagraphs}</blockquote>`;
+}
+
+export function renderRichTextContent(value: string) {
+  return value
+    .split(/\n\s*\n/)
+    .map((block) => block.trim())
+    .filter(Boolean)
+    .map((block) => block.startsWith(">") ? renderBlockquote(block) : renderParagraph(block))
     .join("");
 }
