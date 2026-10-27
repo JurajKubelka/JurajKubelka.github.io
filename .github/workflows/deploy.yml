@@ -24,6 +24,8 @@ jobs:
 
       - name: Install, build, and upload site
         uses: withastro/action@v5
+        with:
+          node-version: "22.23.4"
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://jurajkubelka.com' }}
           SITE_BASE: ${{ vars.SITE_BASE || '/' }}
